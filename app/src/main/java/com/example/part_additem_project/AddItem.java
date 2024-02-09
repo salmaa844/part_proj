@@ -9,13 +9,13 @@ import java.util.Map;
 public class AddItem {
 
     String profileUrl = "";
-    private TextInputEditText NameProduct,price,count,Itemtype,details;
+    private TextInputEditText NameProduct,price,count,category,details;
     private void insertItem() {
         Map<String, String> dataToSave = new HashMap<>();
         dataToSave.put("Name", NameProduct.getText().toString());
         dataToSave.put("Price", price.getText().toString());
         dataToSave.put("count", count.getText().toString());
-        dataToSave.put("typeofproducts", Itemtype.getText().toString());
+        dataToSave.put("typeofproducts", category.getText().toString());
         dataToSave.put("Detailsofproducts", details.getText().toString());
     }
 
