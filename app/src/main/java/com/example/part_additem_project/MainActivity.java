@@ -29,21 +29,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-          /*RecyclerView recycler= findViewById(R.id.item_recycler);
-       String[] name = new String[product.p.length];
-      String[] price = new String[product.p.length];
-       int[] ids = new int[product.p.length];
 
-        for (int i=0; i<name.length;i++){
-            name[i] =product.p[i].getName();
-            price[i] =product.p[i].getprice();
-            ids[i]=product.p[i].getImgid();
-        }
-
-        recycler.setLayoutManager(new LinearLayoutManager(this));
-       CaptionedItemAdapter adapter = new CaptionedItemAdapter(name,price,ids);
-        recycler.setAdapter(adapter);
-*/
         addbtn = findViewById(R.id.addbtn);
         name=findViewById(R.id.name);
         price=findViewById(R.id.price);
