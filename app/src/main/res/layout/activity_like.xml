@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="150dp"
     android:layout_margin="20dp"
+    android:background="#FBF9F9"
     card_View:cardCornerRadius="10dp"
     card_View:cardElevation="3dp">
 
@@ -25,8 +26,8 @@
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="2"
             android:layout_marginLeft="0dp"
+            android:layout_weight="2"
             android:gravity="center_vertical"
             android:orientation="vertical">
 
@@ -36,8 +37,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="4dp"
                 android:layout_marginBottom="4dp"
-                android:textSize="24pt"
-                android:text="Name" />
+                android:text="Name"
+                android:textSize="24pt" />
 
             <TextView
                 android:id="@+id/txtPrice"
@@ -45,8 +46,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="4dp"
                 android:layout_marginBottom="4dp"
-                android:textSize="24pt"
-                android:text="Price" />
+                android:text="Price"
+                android:textSize="24pt" />
         </LinearLayout>
 
         <LinearLayout
@@ -58,11 +59,11 @@
                 android:id="@+id/deleteButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Delete"
                 android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
                 android:layout_marginTop="8dp"
-                android:layout_marginBottom="8dp" />
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="Delete" />
         </LinearLayout>
     </LinearLayout>
 
