@@ -9,6 +9,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.Toast;
 
@@ -23,6 +24,7 @@ import com.google.firebase.database.FirebaseDatabase;
 public class MainActivity extends AppCompatActivity {
     private TextInputEditText name,price,count,details;
     private AppCompatButton addbtn;
+
 
     DatabaseReference ref;
     @Override
@@ -45,6 +47,8 @@ public class MainActivity extends AppCompatActivity {
                 addItemToDatabase();
             }
         });
+
+
     }
 
     private void addItemToDatabase() {
